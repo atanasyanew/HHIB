@@ -4,11 +4,11 @@ Database=hhibdb;Data Source=us-cdbr-azure-southcentral-f.cloudapp.net;User Id=bf
 
 */
  
-$connectstr_dbhost = 'us-cdbr-azure-southcentral-f.cloudapp.net';
+$connectstr_dbhost = 'us-cdbr-azure-southcentral-f.cloudapp.net:3306';
 $connectstr_dbname = 'hhibdb';
 $connectstr_dbusername = 'bfab3aae3dc2f6';
 $connectstr_dbpassword = 'da2733e9';
- 
+ /*
 foreach ($_SERVER as $key => $value) {
  if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
  continue;
@@ -19,7 +19,7 @@ foreach ($_SERVER as $key => $value) {
  $connectstr_dbusername = preg_replace("/^.*User Id=(.+?);.*$/", "\\1", $value);
  $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
 }
- 
+ */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('DB_NAME', $connectstr_dbname);
