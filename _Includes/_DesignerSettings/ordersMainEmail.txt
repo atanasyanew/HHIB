@@ -1,0 +1,15 @@
+a:1:{i:0;a:5:{s:2:"to";s:60:"msaeva@hhi-co.bg; vanikolov@hhi-co.bg; iangelova@hhi-co.bg; ";s:2:"cc";s:342:"rdimitrova@hhi-co.bg; 
+ppaskov@hhi-co.bg; 
+atodorov@hhi-co.bg; 
+nvarbanov@hhi-co.bg; 
+sevtimova@hhi-co.bg; 
+gjivkov@hhi-co.bg; 
+ateodosieva@hhi-co.bg; 
+vandonov@hhi-co.bg; 
+kovacheva@hhi-co.bg; 
+edimitrova@hhi-co.bg; 
+grigorova@hhi-co.bg; 
+guzunov@hhi-co.bg; 
+gkravchenko@hhi-co.bg; 
+ddrencheva@hhi-co.bg; 
+pplachkova@hhi-co.bg;";s:3:"bcc";s:0:"";s:7:"subject";s:8:"Order No";s:8:"bodytext";s:0:"";}}

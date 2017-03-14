@@ -1,0 +1,1 @@
+a:1:{i:0;a:5:{s:2:"to";s:41:"atodorov@hhi-co.bg; grigorova@hhi-co.bg; ";s:2:"cc";s:101:"gvalchev@hhi-co.bg; kibarov@hhi-co.bg; guzunov@hhi-co.bg; ddrencheva@hhi-co.bg; ddancheva@hhi-co.bg; ";s:3:"bcc";s:0:"";s:7:"subject";s:9:"Offer No:";s:8:"bodytext";s:0:"";}}
