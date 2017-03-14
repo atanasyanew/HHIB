@@ -6,7 +6,7 @@
 
      function require_login_session($page){
         if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
-        header ("Location: /HHIB/$page");
+        header ("Location: /$page");
        // echo "nqma sesiq";
 }
         else{

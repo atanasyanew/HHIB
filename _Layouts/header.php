@@ -28,18 +28,18 @@ href="http://www.w3schools.com/lib/w3.css">
 
 --> 
     
-    <link rel="stylesheet" href="/HHIB/_CSS/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/HHIB/_CSS/bootstrap/css/bootstrap.min.css" >
-    <link rel="stylesheet" href="/HHIB/_CSS/W3CSS/w3.css">
+    <link rel="stylesheet" href="/_CSS/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/_CSS/bootstrap/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="/_CSS/W3CSS/w3.css">
     <script type="text/javascript" src="/HHIB/_Includes/jquery.min.js"></script> 
      
     
 <title>HHIB</title>  
-<link rel="shortcut icon" href="/HHIB/_IMG/logo_2.svg"/>
+<link rel="shortcut icon" href="/_IMG/logo_2.svg"/>
 </head>    
     
 <ul class="w3-navbar w3-hover-none"> 
-<li> <a class="w3-hover-none" href="/HHIB/index.php"><img id="logo" src="/HHIB/_IMG/logo.svg" alt="HHIB" /></a></li>
+<li> <a class="w3-hover-none" href="/index.php"><img id="logo" src="/HHIB/_IMG/logo.svg" alt="HHIB" /></a></li>
 <li> <H5 class="w3-text-dark-grey">TC Web management</H5></li>    
 </ul> <!-- logo stuff -->
     
