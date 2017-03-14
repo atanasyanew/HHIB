@@ -1,10 +1,13 @@
 <?php
-/*Add at the begining of the file*/
+/*Add at the begining of the file
+Database=hhibdb;Data Source=us-cdbr-azure-southcentral-f.cloudapp.net;User Id=bfab3aae3dc2f6;Password=da2733e9
+
+*/
  
-$connectstr_dbhost = 'localhost:55976';
-$connectstr_dbname = 'hhib';
-$connectstr_dbusername = 'hhib';
-$connectstr_dbpassword = 'koea';
+$connectstr_dbhost = 'us-cdbr-azure-southcentral-f.cloudapp.net';
+$connectstr_dbname = 'hhibdb';
+$connectstr_dbusername = 'bfab3aae3dc2f6';
+$connectstr_dbpassword = 'da2733e9';
  
 foreach ($_SERVER as $key => $value) {
  if (strpos($key, "MYSQLCONNSTR_localdb") !== 0) {
