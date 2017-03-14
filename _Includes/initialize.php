@@ -7,7 +7,10 @@
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
 //defined('SITE_ROOT') ? null : define('SITE_ROOT', 'C:'.DS.'xampp'.DS.'htdocs'.DS.'HHIB');
-defined('SITE_ROOT') ? null : define('SITE_ROOT', 'http://hhib.azurewebsites.net');
+
+
+defined('SITE_ROOT') ? null : define('SITE_ROOT', 'D:'.DS.'home');
+//defined('SITE_ROOT') ? null : define('SITE_ROOT', 'http://hhib.azurewebsites.net');
 
 defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'_Includes');
 
