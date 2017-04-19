@@ -8,7 +8,7 @@ Content management system for "Tap Changers" devision.
 
 Application language: **Bulgarian**
 
-More information and futures included in [User guide](https://github.com/atanasyanew/HHIB/tree/master/_Resources/Instruction_web_management.pdf)
+More information and futures available in [User guide](https://github.com/atanasyanew/HHIB/tree/master/_Resources/Instruction_web_management.pdf)
 
 ## Installation
 
