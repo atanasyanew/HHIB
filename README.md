@@ -5,10 +5,12 @@ HHIB WEB MANAGEMENT SYSTEM <a href="https://ju.se"><img src="https://cdn.rawgit.
 
 ## Description
 Content management system for "Tap Changers" devision. 
+
 Application language: **Bulgarian**
+
 More information and futures included in [User guide](https://github.com/atanasyanew/HHIB/tree/master/_Resources/Instruction_web_management.pdf)
 
 ## Installation
 
-- Database and [Instructions](https://github.com/atanasyanew/HHIB/tree/master/_Resources/Installation_web_management.pdf) included in [_Resources](https://github.com/atanasyanew/HHIB/tree/master/_Resources) folder
+Database and [Instructions](https://github.com/atanasyanew/HHIB/tree/master/_Resources/Installation_web_management.pdf) included in [_Resources](https://github.com/atanasyanew/HHIB/tree/master/_Resources) folder
 
