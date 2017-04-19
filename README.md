@@ -25,4 +25,21 @@ cloud deploy version
     <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
 </a>
 
-Aimeos TYPO3 extension
+JKPG Library <a href="https://ju.se"><img src="https://cdn.rawgit.com/atanasyanew/JKPG-Library/master/_Resources/ju_logo.svg" title="Logo" align="right" height="30" /></a> 
+======
+[![Demo](https://img.shields.io/badge/Demo-Online-green.svg)](http://library-jkpg.azurewebsites.net/)
+[![Presentation](https://img.shields.io/badge/Guide-End%20User-blue.svg)](https://rawgit.com/atanasyanew/JKPG-Library/master/_Resources/Presentation/index.html)
+
+
+The project is developed in [Jönköping University]( https://ju.se/), [Server-side Web Development (TPWK16)](http://ju.se/JTH/en/education/courses.html?courseCode=TPWK16&semester=20161&lang=en) course. 
+
+## Installation
+
+- Database and scripts included in [_Resources](https://github.com/atanasyanew/JKPG-Library/tree/master/_Resources) folder
+
+<!--
+## Additional information
+
+- [Project assignment](https://github.com/atanasyanew/JKPG-Library/tree/master/_Resources/laboratory-work.pdf)
+
+-->
