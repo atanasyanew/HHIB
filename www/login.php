@@ -1,4 +1,4 @@
-<?PHP 
+<?php
     require_once "_Includes/initialize.php"; 
     include_layout_template('header.php'); 
     if ( isset($_SESSION['login']) && $_SESSION['login'] != '' ) {
@@ -20,7 +20,7 @@
     $u_password = "{$_POST['u_password']}";   
     $user->login($u_name, $u_password);
 }
-?> 
+?>
       
 <div class="w3-content w3-padding-128" style="max-width:500px">
    
@@ -33,7 +33,7 @@
     <p><input class="w3-input" name="u_name" type="text" required placeholder="Потребителско име"></p>
     <p><input class="w3-input" name="u_password" type="password" required placeholder="Парола"></p>
     <p><button class="w3-btn w3-teal" value="true" name="u_login">Влез</button>
-       <a href="/HHIB/singup.php" class="w3-right"><i class="fa fa-user-plus" aria-hidden="true"></i> Регистрация</a>
+       <a href="./singup.php" class="w3-right"><i class="fa fa-user-plus" aria-hidden="true"></i> Регистрация</a>
       </p>
   </form>
                 

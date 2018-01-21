@@ -6,11 +6,7 @@
 // (\ for Windows, / for Unix)
 defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
 
-//defined('SITE_ROOT') ? null : define('SITE_ROOT', 'C:'.DS.'xampp'.DS.'htdocs'.DS.'HHIB');
-
-
-defined('SITE_ROOT') ? null : define('SITE_ROOT', 'D:'.DS.'home'.DS.'site'.DS.'wwwroot');
-//defined('SITE_ROOT') ? null : define('SITE_ROOT', 'http://hhib.azurewebsites.net');
+defined('SITE_ROOT') ? null : define('SITE_ROOT', DS.'var'.DS.'www'.DS.'html');
 
 defined('LIB_PATH') ? null : define('LIB_PATH', SITE_ROOT.DS.'_Includes');
 
@@ -19,7 +15,7 @@ defined('FILES_DB') ? null : define('FILES_DB', SITE_ROOT.DS.'HHIBFILEDB');
 defined('DESIGN_SETTINGS') ? null : define('DESIGN_SETTINGS', LIB_PATH.DS.'_DesignerSettings');
 
 // load config file first
-//require_once(LIB_PATH.DS.'config.php');
+require_once(LIB_PATH.DS.'config.php');
 
 // load basic functions next so that everything after can use them
 require_once(LIB_PATH.DS.'functions.php');
@@ -30,3 +26,4 @@ require_once(LIB_PATH.DS.'pagination.php');
 
 //TO DO: Evry class to a diffrent file
 ?>
+<?php date_default_timezone_set('Europe/London'); ?>

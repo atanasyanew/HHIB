@@ -1,4 +1,4 @@
-<?PHP 
+<?php 
 require "_Includes/initialize.php";
 include_layout_template('header.php');
 require_login_session("login.php");
@@ -9,7 +9,6 @@ require_login_session("login.php");
         <h2>Начало</h2>  
     </div>   
 </div>   <!-- header --> 
-
 
 
 <div class="w3-margin">  

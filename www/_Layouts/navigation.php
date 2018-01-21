@@ -28,6 +28,4 @@
      <a href="/User/user_profile.php"><i class="fa fa-user" aria-hidden="true"></i> <?php echo $_SESSION['real_name'];?></a>
     </li>
     
-
-    
 </ul>

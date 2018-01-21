@@ -1,7 +1,6 @@
 <?php
 session_start();
 ?>
-
 <!DOCTYPE HTML>
 <HTML xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -44,46 +43,44 @@ href="http://www.w3schools.com/lib/w3.css">
 </ul> <!-- logo stuff -->
     
     
-<?php  //Maintenance      
+<!-- 
+//Maintenance      
 
-/*   
-echo "<div class='w3-container w3-indigo w3-padding-64'>";
+// echo "<div class='w3-container w3-indigo w3-padding-64'>";
 
-echo "<pre>";   
-print_r($_SESSION); //test kakuv array vzima   
-echo "</pre>";   
+// echo "<pre>";   
+// print_r($_SESSION); //test kakuv array vzima   
+// echo "</pre>";   
   
-echo "<pre>";
-print_r(get_declared_classes());
-echo "</pre>";
+// echo "<pre>";
+// print_r(get_declared_classes());
+// echo "</pre>";
  
-echo "<pre>";      
-$host = gethostname();
-$ip = gethostbyname($host);
-$actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+// echo "<pre>";      
+// $host = gethostname();
+// $ip = gethostbyname($host);
+// $actual_link = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
     
-echo 'SITE_ROOT: ' .  SITE_ROOT . "<br/>";
-echo 'LIB_PATH: '  . LIB_PATH  . "<br/>"; 
-echo "SERVER_ADDR: " . $_SERVER['SERVER_ADDR'] . "<br/>"; 
-echo "gethostname(): " .  $host . "<br/>";
-echo "gethostbyname(host): " .  $ip . "<br/>";
-echo "actual_link: " . $actual_link  . "<br/>";
-echo "</pre>";    
-    
-echo "</div>";  
-*/  
-    
-?>
+// echo 'SITE_ROOT: ' .  SITE_ROOT . "<br/>";
+// echo 'LIB_PATH: '  . LIB_PATH  . "<br/>"; 
+// echo "SERVER_ADDR: " . $_SERVER['SERVER_ADDR'] . "<br/>"; 
+// echo "gethostname(): " .  $host . "<br/>";
+// echo "gethostbyname(host): " .  $ip . "<br/>";
+// echo "actual_link: " . $actual_link  . "<br/>";
+// echo "</pre>";    
+
+// echo "</div>";      -->
+
     
     
 <BODY> 
 
-<HEADER>  
-<?PHP  
+<HEADER>
+<?php  
     if (isset($_SESSION['login']) && $_SESSION['login'] != '') {
         include ("navigation.php");
     }
-?>       
+?> 
 </HEADER> 
 
 

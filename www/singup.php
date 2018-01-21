@@ -25,7 +25,7 @@ if (isset($_POST['btnSubmit']) && isset($_POST['chkConfirm'])) {
             $warningMsg  = "<div class=\"w3-panel w3-margin w3-green\">";
             $warningMsg .= "<span onclick=\"this.parentElement.style.display='none'\" class=\"w3-closebtn\">&times;</span>";
             $warningMsg .= "<h3>Успешно регистриране!</h3>";
-            $warningMsg .= "<p><a href=\"/HHIB/login.php\" title=\"Начало\"><span>Вход към системата</span></a></p>";
+            $warningMsg .= "<p><a href=\"./login.php\" title=\"Начало\"><span>Вход към системата</span></a></p>";
             $warningMsg .= "</div>"; 
             
         } else {
@@ -110,16 +110,14 @@ if (isset($_POST['btnSubmit']) && isset($_POST['chkConfirm'])) {
       
     <p>
     <button class="w3-btn w3-teal" value="true" name="btnSubmit">Регистрирай се</button>
-    <a href="/HHIB/login.php" class="w3-right"><i class="fa fa-sign-in" aria-hidden="true"></i> Върни се обратно</a>
+    <a href="./login.php" class="w3-right"><i class="fa fa-sign-in" aria-hidden="true"></i> Върни се обратно</a>
     </p>    
   </form>
                 
 </div>         
 </div>   <!-- REGISTER FORM -->     
     
-    
-    
-    
+ 
 <?PHP include_layout_template('footer.php'); ?> 
     
     

@@ -20,7 +20,7 @@ if (!isset($_SESSION['login'])) {
 print "<div class=\"w3-panel w3-margin w3-green\">";
 print "<span onclick=\"this.parentElement.style.display='none'\" class=\"w3-closebtn\">&times;</span>";
 print "<h3>Излезе успешно!</h3>";
-print "<p><a href=\"/HHIB/login.php\" title=\"Начало\"><span>Върни се обратно</span></a></p>";
+print "<p><a href=\"/login.php\" title=\"Начало\"><span>Върни се обратно</span></a></p>";
 print "</div>";  
 
 } else {

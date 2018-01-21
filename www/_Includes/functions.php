@@ -1,17 +1,15 @@
- <?php
-
-     function include_layout_template($template=""){
+<?php
+    function include_layout_template($template=""){
         include(SITE_ROOT.DS.'_Layouts'.DS.$template);
 }     
 
      function require_login_session($page){
         if (!(isset($_SESSION['login']) && $_SESSION['login'] != '')) {
-        header ("Location: /$page");
-       // echo "nqma sesiq";
-}
-        else{
-          //  print $_SESSION['login'];
-          //  print_r($_SESSION);
+        redirect_to($page);
+        //  echo "nqma sesiq";
+        } else{
+        //    print $_SESSION['login'];
+        //    print_r($_SESSION);
         }
     }                
 

@@ -1,7 +1,4 @@
-<?php require_once(LIB_PATH.DS."config.php"); ?>
-
-
-<?PHP
+<?php require_once(LIB_PATH.DS."config.php");
 
 class MySQLDatabase {
 	
@@ -1911,7 +1908,7 @@ class User extends MySQLDatabase {
         $_SESSION['user_permission'] = $subject['user_type'];    
         $_SESSION['login'] = $subject['user_name']; 
         $_SESSION['real_name'] = $subject['real_name']; 
-        header ("Location: index.php");
+        redirect_to("index.php");
         exit;  
         } else { 
         print "<div class=\"w3-panel w3-margin w3-red\">";
@@ -2178,29 +2175,4 @@ class Sessions {
 
 $ss = new Sessions();
 
-?> 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+?>

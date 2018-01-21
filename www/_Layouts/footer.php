@@ -1,4 +1,4 @@
-<?PHP require_once "/../_Includes/initialize.php"; ?>
+<?php //require_once "/_Includes/initialize.php"; ?>
   
 <br>
 <br>
@@ -9,7 +9,7 @@
       &copy; <?php echo date("Y", time()); ?> Hyundai Heavy Industries CO. Bulgaria</a>
   </h5>
     
-  <p>Powered by A. Yanev</p>
+  <p>Developed A. Yanev</p>
 </footer>
 
 </BODY> 
