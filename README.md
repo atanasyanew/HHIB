@@ -18,7 +18,7 @@ docker-compose build
 docker-compose up
 ```
 
-- Application url:  **http://localhost:8001**, credentials: 
+- Application url:  **http://localhost:8002**, credentials: 
 	- username: **admin**
 	- password: **admin**
 
