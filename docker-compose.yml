@@ -3,9 +3,9 @@ services:
     www:
         build: .
         ports: 
-            - "8001:80"
+            - "8000:80"
         volumes:
-            - ./www:/var/www/html/
+            - ./HHIB:/var/www/html/
         links:
             - db
         networks:
@@ -20,8 +20,8 @@ services:
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
         volumes:
-            - ./dump:/docker-entrypoint-initdb.d
-            - persistent:/var/lib/mysql
+            - ./SeedSQL:/docker-entrypoint-initdb.d
+            - HHIB_DB_Data:/var/lib/mysql
         networks:
             - default
     phpmyadmin:
@@ -29,10 +29,10 @@ services:
         links: 
             - db:db
         ports:
-            - 8000:80
+            - 8001:80
         environment:
             MYSQL_USER: user
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
 volumes:
-    persistent:
+    HHIB_DB_Data:
