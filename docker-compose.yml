@@ -10,6 +10,7 @@ services:
             - db
         networks:
             - default
+            
     db:
         image: mysql
         ports: 
@@ -24,6 +25,7 @@ services:
             - HHIB_DB_Data:/var/lib/mysql
         networks:
             - default
+
     phpmyadmin:
         image: phpmyadmin/phpmyadmin
         links: 
@@ -34,5 +36,8 @@ services:
             MYSQL_USER: user
             MYSQL_PASSWORD: test
             MYSQL_ROOT_PASSWORD: test
+        networks:
+            - default
+
 volumes:
     HHIB_DB_Data:
